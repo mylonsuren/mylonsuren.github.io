@@ -16,22 +16,40 @@ app.controller('indexPageController', function($scope) {
 
     // Menu Click Variable
     $scope.homeButton = 'active';
-    $scope.linksButton = '';
+    $scope.linkedInButton = '';
+    $scope.githubButton = '';
     $scope.resumeButton = '';
 
     $scope.menuClick = function(button) {
         if (button === 'homeButton') {
-            $scope.linksButton = '';
+            $scope.linkedInButton = '';
             $scope.resumeButton = '';
+            $scope.githubButton = '';
             $scope.homeButton = 'active';
-        } else if (button === 'linksButton') {
-            $scope.linksButton = 'active';
-            $scope.resumeButton = '';
-            $scope.homeButton = '';
+        } else if (button === 'linkedInButton') {
+            // $scope.linkedInButton = 'active';
+            // $scope.githubButton = '';
+            // $scope.resumeButton = '';
+            // $scope.homeButton = '';
+
+            window.open("https://www.linkedin.com/in/mylonsuren/", '_blank');
+
+        } else if (button === 'githubButton'){
+            // $scope.githubButton = 'active';
+            // $scope.linkedInButton = '';
+            // $scope.homeButton = '';
+            // $scope.resumeButton = '';
+
+            window.open("https://github.com/mylonsuren", '_blank');
+
         } else {
-            $scope.resumeButton = 'active';
-            $scope.linksButton = '';
-            $scope.homeButton = '';
+            // $scope.githubButton = '';
+            // $scope.linkedInButton = '';
+            // $scope.homeButton = '';
+            // $scope.resumeButton = 'active';
+
+            window.open("https://www.linkedin.com/in/mylonsuren/", '_blank');
+
         }
     }
 

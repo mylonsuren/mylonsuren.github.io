@@ -29,16 +29,26 @@
 <body ng-app="app" ng-controller="indexPageController">
 	<div class="ui secondary pointing menu">
 		<a class="item {{homeButton}}" ng-click="menuClick('homeButton')">
-			Home
+			Mylon Surenthiran
 		</a>
-		<a class="item {{linksButton}}" ng-click="menuClick('linksButton')">
-			Links
-		</a>
-		<a class="item {{resumeButton}}" ng-click="menuClick('resumeButton')">
-			Resume
-		</a>
-	</div>
+		<div class="right menu">
+			<a class="item {{githubButton}}" ng-click="menuClick('githubButton')">
+				<i class="ui link github icon"></i>
+				Github
+			</a>
 
+			<a class="item {{linkedInButton}}" ng-click="menuClick('linkedInButton')">
+				<i class="ui link linkedin icon"></i>
+				LinkedIn
+			</a>
+
+
+			<a class="item {{resumeButton}}" ng-click="menuClick('resumeButton')">
+				<i class="ui link file text outline icon"></i>
+				Resume
+			</a>
+		</div>
+	</div>
 
 
 	<div class="ui grid">
@@ -46,25 +56,74 @@
 			<div class="ui one cards">
 				<div id="fullWideCard" class="ui raised card">
 					<div class="content">
-						<h1 id="name" class="ui centered header">{{name}}
-							<div class="ui sub header">2nd Year Computer Science Student</div>
+						<h1 id="name" class="ui centered header">Mylon Surenthiran
+							<div class="ui sub header">Computer Science Student</div>
 						</h1>
-						<!-- <div class="description"></div> -->
+						<div class="ui description">
+							&nbsp
+							<div class="ui centered sixteen column grid">
+								<div class="ui column">
+									<a class="item">
+	  							    	<i class="ui link large black github icon"></i>
+	  							  	</a>
+								</div>
+								<div class="ui column">
+									<a class="item">
+										<i class="ui link large black linkedin icon"></i>
+
+								  	</a>
+								</div>
+								<div class="ui column">
+									<a class="item">
+										<i class="ui link large black file text outline icon"></i>
+								 	</a>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="ui eleven wide column">
+
+		<div class="ui six wide column">
+			<div class="ui one cards">
+				<div id="oneThirdsWideCard" class="ui raised card">
+					<div class="content">
+
+
+						<h1 class="ui centered dividing header">
+							Education
+						</h1>
+						&nbsp
+						<!-- <img class="ui tiny image" src="https://pbs.twimg.com/profile_images/801076590176309248/nOTvuqN5.jpg"> -->
+						<h3 class="ui header">
+						  <img src="https://pbs.twimg.com/profile_images/801076590176309248/nOTvuqN5.jpg" class="ui avatar image">
+						  <div class="content">
+							  University of Waterloo
+							  <div class="ui black sub header">
+								Honours Bachelor of Computer Science, Co-op
+							  </div>
+							  <p style="font-size: 0.7em;">
+								2016 - 2021
+							  </p>
+						  </div>
+
+					  	</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="ui ten wide column">
 			<div class="ui one cards">
 				<div id="twoThirdsWideCard" class="ui raised card">
-					<div class="content">
-						<h1 class="ui header">Technical Skills
-							<div class="ui sub header"></div>
-						</h1>
-						<div class="description">
-							<div class="ui five column grid">
+					<div class="ui content">
+						<h1 class="ui centered dividing header">Technical Skills</h1>
+						&nbsp
+						<!-- <div class="ui centered description"> -->
+							<div class="ui centered grid">
+								<div class="ui six column centered row">
 								<div class="ui column">
-									<div class="ui middle aligned animated list">
+									<div class="ui middle aligned  list">
 										<div class="item">
 											<img class="ui avatar image" src="https://png.icons8.com/java/color/60/000000">
 											<div class="content">
@@ -80,7 +139,7 @@
 									</div>
 								</div>
 								<div class="ui column">
-									<div class="ui middle aligned animated list">
+									<div class="ui middle aligned  list">
 										<div class="item">
 											<img class="ui avatar image" src="https://png.icons8.com/javascript/ios7/60/000000">
 											<div class="content">
@@ -96,7 +155,7 @@
 									</div>
 								</div>
 								<div class="ui column">
-									<div class="ui middle aligned animated list">
+									<div class="ui middle aligned  list">
 										<div class="item">
 											<img class="ui avatar image" src="https://png.icons8.com/html-5/color/60/000000">
 											<div class="content">
@@ -112,7 +171,7 @@
 									</div>
 								</div>
 								<div class="ui column">
-									<div class="ui middle aligned animated list">
+									<div class="ui middle aligned  list">
 
 										<div class="item">
 											<img class="ui avatar image" src="https://png.icons8.com/swift/color/100/000000">
@@ -129,7 +188,7 @@
 									</div>
 								</div>
 								<div class="ui column">
-									<div class="ui middle aligned animated list">
+									<div class="ui middle aligned  list">
 										<div class="item">
 											<img class="ui avatar image" src="https://material.angularjs.org/latest/img/icons/angular-logo.svg">
 											<div class="content">
@@ -144,16 +203,26 @@
 										</div>
 									</div>
 								</div>
+								<div class="ui column">
+									<div class="ui middle aligned  list">
+										<div class="item">
+											<img class="ui avatar image" src="https://png.icons8.com/git/color/96/000000">
+											<div class="content">
+												<div class="header">Git</div>
+											</div>
+										</div>
+										<div class="item">
+											<img class="ui avatar image" src="https://png.icons8.com/microsoft-excel/color/96/000000">
+											<div class="content">
+												<div class="header">Excel</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								</div>
 							</div>
-						</div>
+						<!-- </div> -->
 					</div>
-				</div>
-			</div>
-		</div>
-		<div class="ui five wide column">
-			<div class="ui one cards">
-				<div id="oneThirdsWideCard" class="ui raised card">
-
 				</div>
 			</div>
 		</div>

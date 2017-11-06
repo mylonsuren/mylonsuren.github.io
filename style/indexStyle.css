@@ -13,13 +13,14 @@
 
 
 #twoThirdsWideCard {
-    padding: 60px;
-    margin-left: 50px;
-    /*margin-right: 100px;*/
+    padding: 30px;
+    padding-left: 50px;
+    /*margin-left: 50px;*/
+    margin-right: 50px;
 }
 
 #oneThirdsWideCard {
-    padding: 60px;
-    /*margin-left: 0px;*/
-    margin-right: 50px;
+    padding: 30px;
+    margin-left: 50px;
+    /*margin-right: 50px;*/
 }
