@@ -48,12 +48,10 @@ app.controller('indexPageController', function($scope) {
             // $scope.homeButton = '';
             // $scope.resumeButton = 'active';
 
-            window.open("https://www.linkedin.com/in/mylonsuren/", '_blank');
+            window.open("../Resume/Mylon_Surenthiran_Resume.pdf");
+
 
         }
     }
-
-
-    $scope.name = 'Mylon Suren';
 
 });
