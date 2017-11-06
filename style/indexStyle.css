@@ -1,1 +1,25 @@
+#name {
+    font-size: 80px;
+}
 
+
+
+#fullWideCard {
+    padding: 60px;
+    margin-top: 5%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+#twoThirdsWideCard {
+    padding: 60px;
+    margin-left: 50px;
+    /*margin-right: 100px;*/
+}
+
+#oneThirdsWideCard {
+    padding: 60px;
+    /*margin-left: 0px;*/
+    margin-right: 50px;
+}
