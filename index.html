@@ -41,8 +41,10 @@
 				<i class="ui link linkedin icon"></i>
 				LinkedIn
 			</a>
-
-
+			<a class="item {{mailButton}}" href="mailto:msurenth@edu.uwaterloo.ca">
+				<i class="ui link mail icon"></i>
+				Email
+			</a>
 			<a class="item {{resumeButton}}" ng-click="menuClick('resumeButton')">
 				<i class="ui link file text outline icon"></i>
 				Resume
@@ -64,19 +66,24 @@
 							<div class="ui centered sixteen column grid">
 								<div class="ui column">
 									<a class="item" ng-click="menuClick('githubButton')">
-	  							    	<i class="ui link large black github icon"></i>
-	  							  	</a>
+										<i class="ui link large purple github icon"></i>
+									</a>
 								</div>
 								<div class="ui column">
 									<a class="item" ng-click="menuClick('linkedInButton')">
-										<i class="ui link large black linkedin icon"></i>
+										<i class="ui link large blue linkedin icon"></i>
 
-								  	</a>
+									</a>
+								</div>
+								<div class="ui column">
+									<a class="item" href="mailto:msurenth@edu.uwaterloo.ca">
+										<i class="ui link large mail icon"></i>
+									</a>
 								</div>
 								<div class="ui column">
 									<a class="item" ng-click="menuClick('resumeButton')">
-										<i class="ui link large black file text outline icon"></i>
-								 	</a>
+										<i class="ui link large red file text outline icon"></i>
+									</a>
 								</div>
 							</div>
 						</div>
@@ -89,26 +96,36 @@
 			<div class="ui one cards">
 				<div id="oneThirdsWideCard" class="ui raised card">
 					<div class="content">
-
-
 						<h1 class="ui centered dividing header">
 							Education
 						</h1>
 						&nbsp
-						<!-- <img class="ui tiny image" src="https://pbs.twimg.com/profile_images/801076590176309248/nOTvuqN5.jpg"> -->
 						<h3 class="ui header">
-						  <img src="https://pbs.twimg.com/profile_images/801076590176309248/nOTvuqN5.jpg" class="ui avatar image">
-						  <div class="content">
-							  University of Waterloo
-							  <div class="ui black sub header">
-								Honours Bachelor of Computer Science, Co-op
-							  </div>
-							  <p style="font-size: 0.7em;">
-								2016 - 2021
-							  </p>
-						  </div>
-
-					  	</h3>
+							<img src="https://pbs.twimg.com/profile_images/801076590176309248/nOTvuqN5.jpg" class="ui avatar image">
+							<div class="content">
+								University of Waterloo
+								<div class="ui black sub header">
+									Honours Bachelor of Computer Science, Co-op
+								</div>
+								<p style="font-size: 0.7em;">
+									2016 - 2021
+								</p>
+							</div>
+						</h3>
+						&nbsp
+						&nbsp
+						<h3 class="ui header">
+							<img src="http://www.ycdsb.ca/stlh/wp-content/uploads/sites/106/2016/11/cropped-stlh-crest-1.png" class="ui avatar image">
+							<div class="content">
+								St. Theresa of Lisieux Catholic High School
+								<div class="ui black sub header">
+									OSSD
+								</div>
+								<p style="font-size: 0.7em;">
+									2012 - 2016
+								</p>
+							</div>
+						</h3>
 					</div>
 				</div>
 			</div>
@@ -119,9 +136,8 @@
 					<div class="ui content">
 						<h1 class="ui centered dividing header">Technical Skills</h1>
 						&nbsp
-						<!-- <div class="ui centered description"> -->
-							<div class="ui centered grid">
-								<div class="ui six column centered row">
+						<div class="ui centered grid">
+							<div class="ui six column centered row">
 								<div class="ui column">
 									<div class="ui middle aligned  list">
 										<div class="item">
@@ -172,7 +188,6 @@
 								</div>
 								<div class="ui column">
 									<div class="ui middle aligned  list">
-
 										<div class="item">
 											<img class="ui avatar image" src="https://png.icons8.com/swift/color/100/000000">
 											<div class="content">
@@ -219,9 +234,84 @@
 										</div>
 									</div>
 								</div>
-								</div>
 							</div>
-						<!-- </div> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="ui six wide column">
+			<div class="ui one cards">
+				<div id="oneThirdsWideCard" class="ui raised card">
+					<div class="content">
+						<h1 class="ui centered dividing header">
+							Projects
+						</h1>
+						&nbsp
+						<h3 class="ui header">
+							<img src="https://pbs.twimg.com/profile_images/801076590176309248/nOTvuqN5.jpg" class="ui avatar image">
+							<div class="content">
+								Stock Market Simulator
+								<div class="ui black sub header">
+
+								</div>
+								<p style="font-size: 0.7em;">
+									Java
+								</p>
+							</div>
+						</h3>
+						&nbsp
+						&nbsp
+						<h3 class="ui header">
+							<img src="http://www.ycdsb.ca/stlh/wp-content/uploads/sites/106/2016/11/cropped-stlh-crest-1.png" class="ui avatar image">
+							<div class="content">
+								TwiiterBot
+								<div class="ui black sub header">
+
+								</div>
+								<p style="font-size: 0.7em;">
+									JavaScript, NodeJS, Twitter API
+								</p>
+							</div>
+						</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="ui ten wide column">
+			<div class="ui one cards">
+				<div id="twoThirdsWideCard" class="ui raised card" style="margin-top: -43px;">
+					<div class="content">
+						<h1 class="ui centered dividing header">
+							Experience
+						</h1>
+						&nbsp
+						<h3 class="ui header">
+							<img src="https://pbs.twimg.com/profile_images/797833739795595264/KHzGCVxn_400x400.jpg" class="ui avatar image">
+							<div class="content">
+								BMO Financial Group
+								<div class="ui black sub header">
+									Software Developer
+								</div>
+								<p style="font-size: 0.7em;">
+									Jan. 2017 - Present
+								</p>
+							</div>
+						</h3>
+						&nbsp
+						&nbsp
+						<h3 class="ui header">
+							<img src="http://iconshow.me/media/images/logo/brand-logo-icon/png/512/ibm-512.png" class="ui avatar image">
+							<div class="content">
+								IBM
+								<div class="ui black sub header">
+									Bluemix Project Developer
+								</div>
+								<p style="font-size: 0.7em;">
+									May 2017 - Aug. 2017
+								</p>
+							</div>
+						</h3>
 					</div>
 				</div>
 			</div>
