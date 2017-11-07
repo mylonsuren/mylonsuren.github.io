@@ -3,6 +3,8 @@ var app = angular.module("app", []);
 
 app.controller('indexPageController', function($scope) {
 
+
+
     // List of Projects
     $scope.listofProjects = {
         "projectOne": {
@@ -52,5 +54,7 @@ app.controller('indexPageController', function($scope) {
 
         }
     }
+
+
 
 });
