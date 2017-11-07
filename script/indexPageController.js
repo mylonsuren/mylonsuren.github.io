@@ -48,8 +48,7 @@ app.controller('indexPageController', function($scope) {
             // $scope.homeButton = '';
             // $scope.resumeButton = 'active';
 
-            window.open("../Resume/Mylon_Surenthiran_Resume.pdf");
-
+            window.open("https://drive.google.com/file/d/0Bzf_cgo4vCSJdm16YjJROElNTkE/view", '_blank');
 
         }
     }
