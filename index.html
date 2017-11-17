@@ -35,24 +35,33 @@
 				<h1 class="ui inverted header animated fadeInRightBig" style="font-size: 7em">Mylon Surenthiran</h1>
 			</div>
 			<div class="ui three wide column">
-				<div class="ui one column grid animated fadeInLeftBig">
+				<div class="ui one column grid animated fadeInLeftBig" style="margin-top: -30px;">
 					<div class="ui column">
-						<i id="emailIcon" class="ui link large inverted mail square icon" ng-click="openmail('mailto:msurenth@uwaterloo.ca')"></i>
-						<span id="email" style="display: inline-block; opacity: 0; color: white;">
+						<div id="emailIcon" class="ui small icon button" ng-click="openmail('mailto:msurenth@uwaterloo.ca')"
+							style="background-color:#00a1f1">
+							<i class="ui inverted mail outline icon"></i>
+						</div>
+						<!-- <span id="email" style="display: inline-block; opacity: 0; color: white;">
 							Email
-						</span>
+						</span> -->
 					</div>
 					<div class="ui column">
-						<i id="linkedinIcon" class="ui link large inverted linkedin square icon" ng-click="openurl('https://www.linkedin.com/in/mylonsuren/')"></i>
-						<span id="linkedin" style="display: inline-block; opacity: 0; color: white;">
+						<div id="linkedinIcon" class="ui small linkedin icon button" ng-click="openurl('https://www.linkedin.com/in/mylonsuren/')">
+							<i class="ui linkedin icon"></i>
+						</div>
+						<!-- <span id="linkedin" style="display: inline-block; opacity: 0; color: white;">
 							LinkedIn
-						</span>
+						</span> -->
 					</div>
 					<div class="ui column">
-						<i id="githubIcon" class="ui link large inverted github square icon" ng-click="openurl('https://github.com/mylonsuren')"></i>
-						<span id="github" style="display: inline-block; opacity: 0; color: white;">
+						<div id="githubIcon" class="ui small icon button" ng-click="openurl('https://github.com/mylonsuren')"
+							style="background-color: #6e5494; color: black;">
+							<i class="ui inverted github icon"></i>
+						</div>
+						<!-- <i id="githubIcon" class="ui github icon"></i> -->
+						<!-- <span id="github" style="display: inline-block; opacity: 0; color: white;">
 							Github
-						</span>
+						</span> -->
 					</div>
 				</div>
 			</div>
@@ -77,9 +86,10 @@
 						</h5>
 					</div>
 					<div id="resume" class="ui item" style="padding-top: 60px;">
-						<div class="ui huge black label">
-						  <a href="https://drive.google.com/file/d/0Bzf_cgo4vCSJdm16YjJROElNTkE/view">Résumé</a>
-						</div>
+						<a href="https://drive.google.com/file/d/0Bzf_cgo4vCSJdm16YjJROElNTkE/view" class="ui compact button"
+							style="background-color:#D8DBE2; color:1B1B1E;">
+							Résumé
+						</a>
 					</div>
 				</div>
 			</div>
