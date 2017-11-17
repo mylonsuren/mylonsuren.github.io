@@ -3,58 +3,34 @@ var app = angular.module("app", []);
 
 app.controller('indexPageController', function($scope) {
 
-
-
-    // List of Projects
-    $scope.listofProjects = {
-        "projectOne": {
-            name: 'Stock Market Simulator',
-            dateCompleted: new Date(),
-            shortDescription: 'This was a project.',
-            longDescription: 'This was a long project.',
-            toolsUsed: ['Javascript', 'HTML', 'CSS', 'Angular']
-        }
+    // Pure Javascript
+    document.getElementById('emailIcon').onmouseover = function(){
+        document.getElementById('email').style.opacity = "1"
+    }
+    document.getElementById('emailIcon').onmouseout = function(){
+        document.getElementById('email').style.opacity = "0";
     }
 
-    // Menu Click Variable
-    $scope.homeButton = 'active';
-    $scope.linkedInButton = '';
-    $scope.githubButton = '';
-    $scope.resumeButton = '';
-
-    $scope.menuClick = function(button) {
-        if (button === 'homeButton') {
-            $scope.linkedInButton = '';
-            $scope.resumeButton = '';
-            $scope.githubButton = '';
-            $scope.homeButton = 'active';
-        } else if (button === 'linkedInButton') {
-            // $scope.linkedInButton = 'active';
-            // $scope.githubButton = '';
-            // $scope.resumeButton = '';
-            // $scope.homeButton = '';
-
-            window.open("https://www.linkedin.com/in/mylonsuren/", '_blank');
-
-        } else if (button === 'githubButton'){
-            // $scope.githubButton = 'active';
-            // $scope.linkedInButton = '';
-            // $scope.homeButton = '';
-            // $scope.resumeButton = '';
-
-            window.open("https://github.com/mylonsuren", '_blank');
-
-        } else {
-            // $scope.githubButton = '';
-            // $scope.linkedInButton = '';
-            // $scope.homeButton = '';
-            // $scope.resumeButton = 'active';
-
-            window.open("https://drive.google.com/file/d/0Bzf_cgo4vCSJdm16YjJROElNTkE/view", '_blank');
-
-        }
+    document.getElementById('linkedinIcon').onmouseover = function(){
+        document.getElementById('linkedin').style.opacity = "1"
+    }
+    document.getElementById('linkedinIcon').onmouseout = function(){
+        document.getElementById('linkedin').style.opacity = "0";
     }
 
+    document.getElementById('githubIcon').onmouseover = function(){
+        document.getElementById('github').style.opacity = "1"
+    }
+    document.getElementById('githubIcon').onmouseout = function(){
+        document.getElementById('github').style.opacity = "0";
+    }
 
+    $scope.openurl = function(url){
+        window.open(url, '_blank');
+    }
+
+    $scope.openmail = function(url) {
+        window.location.href = "mailto:msurenth@uwaterloo.ca";
+    }
 
 });

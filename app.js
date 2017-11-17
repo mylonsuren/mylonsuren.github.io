@@ -26,7 +26,7 @@ app.use("/node_modules", express.static(__dirname + '/node_modules'));
 
 //pages
 app.get('/', function(req, res) {
-	res.sendFile(__dirname + '/index.html');
+	res.sendFile(__dirname + '/mainpage.html');
 });
 
 //start server
