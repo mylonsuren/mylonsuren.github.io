@@ -1,3 +1,3 @@
 # Personal Website
 
-Link: [mylonsuren.github.io](mylonsuren.github.io)
+Link: [mylonsuren.github.io](https://mylonsuren.github.io/)
