@@ -31,6 +31,10 @@
 *.sql
 *.sqlite
 
+# misc #
+########
+build-process.md
+
 # OS generated files #
 ######################
 .DS_Store
