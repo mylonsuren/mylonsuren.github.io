@@ -3,7 +3,6 @@ var app = angular.module("app", []);
 
 app.controller('indexPageController', function($scope) {
 
-    // Pure Javascript
     document.getElementById('emailIcon').onmouseover = function(){
         document.getElementById('email').style.opacity = "1"
     }
